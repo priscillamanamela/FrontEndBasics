@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercising And Meditation</title>
+    <style>
+        body{background-color: rgb(145, 233, 94);}
+.container{ max-width:650px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    padding: 15px;
+    border-radius: 10px;
+    display:block;
+    margin: 0 auto;
+
+}
+h1{ text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(32, 38, 57);}
+
+h2{text-align: center;
+color: rgb(42, 79, 20);}
+
+
+.themeButton{ background: white;
+color:rgb(32, 38, 57); 
+font-size: 20px;
+display: block;
+margin: 0 auto;}
+
+img{ display: block;
+margin:0 auto;
+width:200px ;
+height: 200px ;
+}
+p{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+.themeButton:hover{background:linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+color:white;
+cursor:pointer;
+}
+
+.learnButton{ background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+color: white; 
+font-size: medium;
+display: block;
+margin: 0 auto;
+font-size: 15px;
+padding: 6px;
+}
+
+.learnButton:hover{background: white;
+color: rgb(32, 38, 57);
+cursor:pointer;}
+
+footer{ text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.image1{ border-radius: 12px;
+    transition: all 150ms ease-in-out;
+
+}
+.image1:hover{filter:contrast(80%);
+transform: scale(1.1);
+}
+
+.image5{ border-radius: 12px;
+    transition: all 150ms ease-in-out;
+
+}
+.image5:hover{filter:contrast(80%);
+transform: scale(1.1);
+}
+
+.image2{ border-radius: 12px;
+    transition: all 150ms ease-in-out;
+
+}
+.image2:hover{filter:contrast(80%);
+transform: scale(1.1);
+}
+
+.image3{ border-radius: 12px;
+    transition: all 150ms ease-in-out;
+
+}
+.image3:hover{filter:contrast(80%);
+transform: scale(1.1);
+}
+
+.image4{ border-radius: 12px;
+    transition: all 150ms ease-in-out;
+
+}
+.image4:hover{filter:contrast(80%);
+transform: scale(1.1);
+}
+
+.grid{ display: grid;
+grid-template-columns: 90px 90px 90px;
+grid-gap: 130px;
+}
+body.dark {
+      background: linear-gradient(90deg, rgb(13, 15, 21), rgb(139, 102, 241));
+      color: white;
+    }
+
+    body.dark .container {
+      background: inherit;
+    }
+
+    body.dark a {
+      color: orange;
+    }
+    body.dark h2{ color: orange;
+}
+body.dark h1{ color: white;
+}
+
+    </style>
+</head>
+<body class="dark">
+    <button class="themeButton">Dark Theme</button>
+    <br>
+<hr>
+
+    <div class="container">
+    <h1><strong>🧘My Favourite Hobbies: Exercising And Meditation🏃‍♀️</strong></h1></br>
+    <hr> 
+    <h2><em>Recharging</em> your body and emotions</h2>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/793/original/chakra7.jpg?1735586857" class="image1">
+
+    <p>Upon first glance, exercise and meditation offer similar benefits. Both help improve mood, reduce anxiety and depression, and can lead to a calm, balanced state of mind. But exercise is not a replacement for meditation, nor is meditation a replacement for exercise. The two have distinct benefits that are equally important for maintaining general wellbeing.<a href="https://mindworks.org/blog/benefits-exercise-meditation-brain-health/">Read More</a></p> </br>
+</br>
+<div class="grid">
+
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/789/original/exercise3.jpeg?1735584259" class="image3">
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/790/original/meditate5.jpg?1735584343" class="image4">
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/787/original/exercise2.gif?1735584086" class="image5">
+</div> </br>
+
+<p>From my own personal experience having two or three workouts that are fun, will help you get faster body goal results. It also makes the workout fun. Chakra Chant Mediattion helps release all the blocks and tension using vibration. Frequency is raised through high vibrational activities. Depression and anxiety can be factors some of us have difficult times managing but with exercise and medition you can achieve at least an equilibrium level of control over those tactics. This is why I enjoy these two hobbies because they boost my mental strength.</br>
+</br>
+<a href="https://www.health.harvard.edu/topics/exercise-and-fitness#:~:text=Exercising%20regularly%2C%20every%20day%20if%20possible%2C%20is%20the,to%20control%20appetite%2C%20boost%20mood%2C%20and%20improve%20sleep.">Exercising</a> regularly, every day if possible, is the single most important thing you can do for your health. In the short term, exercise helps to control appetite, boost mood, and improve sleep.</br>
+</br>
+Wikipedia defines <a href="https://en.wikipedia.org/wiki/Meditation">Meditation</a> as a practice in which an individual uses a technique to train attention and awareness and detach from reflexive, "discursive thinking," achieving a mentally clear and emotionally calm and stable state, while not judging the meditation process itself
+</p>
+
+
+
+<button class="learnButton">Learn More</button>
+
+
+</div>
+
+<footer>Coded by Priscilla Manamela🍀</footer>
+
+<script>
+    function applyTheme(isDark) {
+      let body = document.querySelector("body");
+      if (isDark) {
+        body.classList.add("dark");
+        body.style.background = "linear-gradient(90deg, rgb(13, 15, 21), rgb(139, 102, 241))";
+      } else {
+        body.classList.remove("dark");
+        body.style.background = "rgb(145, 233, 94)";
+      }
+    }
+
+    function changeTheme() {
+      let isDark = document.body.classList.contains("dark");
+      applyTheme(!isDark);
+      localStorage.setItem("theme", !isDark ? "dark" : "light");
+    }
+
+    
+    let savedTheme = localStorage.getItem("theme");
+    applyTheme(savedTheme === "dark");
+
+    
+    document.querySelector(".themeButton").addEventListener("click", changeTheme);
+  </script>
+    
+</body>
+</html>
